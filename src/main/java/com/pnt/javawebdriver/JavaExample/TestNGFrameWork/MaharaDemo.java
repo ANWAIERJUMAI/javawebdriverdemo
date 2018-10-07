@@ -67,7 +67,7 @@ public class MaharaDemo {
 
     }
     @DataProvider
-    public Object[][] userinfo(){
+    public Object[][] Userinfo(){
         return new Object[][]{{"admin", "MaharaDemo"},{"Student","MaharaDemo"},{"Learner","MaharaDemo"},{"Staff","MaharaDemo"}};
     }
     public  void waitForElementVisible(By by,int timeoutSeconds){

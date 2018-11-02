@@ -21,6 +21,7 @@ public class JUnitDemo {
  }
  @After
     public void runAfterEachTest(){
+
      System.out.println("Junit After runs once after each test");
  }
  @AfterClass

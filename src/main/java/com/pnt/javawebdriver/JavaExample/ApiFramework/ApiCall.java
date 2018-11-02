@@ -11,6 +11,7 @@ public class ApiCall {
     private static String apiKey="70926ddfd37fdf454548b8db13695995";
 
     public static void main(String[] args) {
+
         getWeatherDataByCityName("NewYork","us");
     }
     public static JSONObject getWeatherDataByCityName(String cityName,String countryName) {

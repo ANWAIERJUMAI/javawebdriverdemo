@@ -26,6 +26,7 @@ public class TestRunner  {
     @BeforeTest
     public void beforeTestInfo()
     {
+
         System.out.println("Test started .....");
     }
     @Test

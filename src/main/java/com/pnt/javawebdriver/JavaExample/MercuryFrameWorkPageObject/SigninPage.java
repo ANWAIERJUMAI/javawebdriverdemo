@@ -18,6 +18,7 @@ public class SigninPage {
         PageFactory.initElements(driver,this);
     }
     public void setUsername(String username) {
+
         UsernameTextFile.sendKeys(username);
     }
     public void setUserPassword(String userPassword){
@@ -25,6 +26,7 @@ public class SigninPage {
 
     }
     public void ClickonLoginButton(){
+
         SigninButton.click();
     }
     public void SigninToPage(String userName, String Password){
@@ -34,6 +36,7 @@ public class SigninPage {
 
     }
     public boolean isLoginButtonDisplayed(){
+
         return  SigninButton.isDisplayed();
     }
 

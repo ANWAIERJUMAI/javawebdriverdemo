@@ -30,6 +30,7 @@ public class MaharaDemo {
     }
     @BeforeMethod
     public  void beforeTestInfo(){
+
         System.out.println("New Test Started");
     }
     @Test(dataProvider = "userinfo")

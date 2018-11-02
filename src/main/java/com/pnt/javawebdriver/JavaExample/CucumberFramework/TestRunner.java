@@ -6,8 +6,8 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "C:/Users/enlem/IdeaProjects/src/main/java/com/pnt/javawebdriver/JavaExample/CucumberFramework"
-        ,glue = {"stepDefination"},
+        features = "C:/Users/enlem/IdeaProjects/src/main/java/com/pnt/javawebdriver/JavaExample/CucumberFramework",
+        glue = {"stepDefination"},
         format = {"pretty","html: test-output"}
 )
 

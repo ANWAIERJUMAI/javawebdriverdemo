@@ -25,7 +25,7 @@ public class ApiRequestBase {
                    CloseableHttpClient client = HttpClientBuilder.create().build();
                    //create closable http response
                    CloseableHttpResponse response = null;
-                   //define response code variable
+                   //define response code variable/
                    int responseCode;
                    //define response time variable
                    long responseTime;

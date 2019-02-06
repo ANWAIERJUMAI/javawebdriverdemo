@@ -21,7 +21,7 @@ public class LoginStepDefination {
     }
 
     @When("^title of login page is Free CRM$")
-    public void title_of_login_page_is_free_CRM()  {
+    public void title_of_login_page_is_Free_CRM()  {
         // Write code here that turns the phrase above into concrete actions
         String title = driver.getTitle();
         System.out.println(title);

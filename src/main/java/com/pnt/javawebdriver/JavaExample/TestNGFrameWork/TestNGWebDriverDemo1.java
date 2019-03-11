@@ -35,7 +35,7 @@ public class TestNGWebDriverDemo1 {
 
                @Test(dataProvider = "userinfo")
        public void loginTest(String sUsername, String sPassword) {
-                   System.out.println("Username=" + sUsername + " Password=" + sPassword);
+                  System.out.println("Username=" + sUsername + " Password=" + sPassword);
                    waitForElementVisible(By.id("username"), timeout);
                    WebElement usernameElement = webDriver.findElement(By.id("username"));
                    usernameElement.sendKeys(sUsername);
